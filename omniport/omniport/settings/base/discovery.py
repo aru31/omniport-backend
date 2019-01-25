@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django_countries',  # Country fields and widgets (with little flags!)
     'mptt',  # Infinite nesting of objects of the same model
     'tinymce',  # Rich text editor
+    'django_celery_results',  # Extension which provides message broker result backends
 
     # Core apps
     'kernel.apps.KernelConfig',
